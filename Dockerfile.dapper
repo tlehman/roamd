@@ -1,0 +1,4 @@
+FROM mhart/alpine-node:16.4.2
+ENV ROAM_API_GRAPH=tlehman
+ENV ROAM_API_EMAIL=mail@tobilehman.com
+RUN npm i -g roam-research-private-api
